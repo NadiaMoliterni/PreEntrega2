@@ -1,0 +1,62 @@
+[
+    {
+        "id": "1535ae88-7825-44b0-bd91-8791c42022ad",
+        "status": true,
+        "title": "Mate Moli 2",
+        "description": "color borgoña",
+        "code": "6655",
+        "price": 2000,
+        "stock": 20,
+        "category": "XL"
+    },
+    {
+        "id": "431d2cf8-522d-4fcd-8dd9-4e35b0a7bf05",
+        "status": true,
+        "title": "Mate Moli 1",
+        "description": "color verde",
+        "code": "6699",
+        "price": 2000,
+        "stock": 20,
+        "category": "XL"
+    },
+    {
+        "id": "8af7d6e1-c929-46c5-af61-0ecf27c008b5",
+        "status": true,
+        "title": "Mate Moli Map",
+        "description": "color blanco",
+        "code": "9980",
+        "price": 2000,
+        "stock": 20,
+        "category": "map"
+    },
+    {
+        "id": "03a6d513-f55f-4ac1-8a07-886c68f97aba",
+        "status": true,
+        "title": "Mate Moli P",
+        "description": "color blanco",
+        "code": "9900",
+        "price": 2000,
+        "stock": 20,
+        "category": "personalizado"
+    },
+    {
+        "id": "54c1a7ec-e4ea-42f3-b0bc-f39779f912ef",
+        "status": true,
+        "title": "Mate Arg Campeon 2",
+        "description": "color negro",
+        "code": "4457",
+        "price": 2000,
+        "stock": 20,
+        "category": "campeon"
+    },
+    {
+        "id": "73b0e329-7316-4e79-87b1-eb31ef10ea7d",
+        "status": true,
+        "title": "Mate Arg Campeon 1",
+        "description": "color azul",
+        "code": "4458",
+        "price": 2000,
+        "stock": 20,
+        "category": "campeon"
+    }
+]
