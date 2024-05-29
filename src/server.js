@@ -3,7 +3,7 @@ import handlebars from "express-handlebars";
 import http from "http";
 import { __dirname } from "./utils.js";
 import { Server } from "socket.io";
-import routes from "./routes.js";
+import routes from "./routes/routes.js";
 
 const app = express();
 const server = http.createServer(app);
