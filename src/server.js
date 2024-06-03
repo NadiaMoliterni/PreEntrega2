@@ -12,11 +12,16 @@ const io = new Server(server);
 app.use(express.json());
 app.use(express.static(__dirname + '/public'));
 
-app.engine("handlebars", handlebars());
+app.engine("handlebars", handlebars.engine());
 app.set("views", `${__dirname}/views`);
 app.set("view engine", "handlebars");
 
-app.use('/', routes(io));
+app.use((req, res, next) => {
+    req.io = io;
+    next();
+});
+app.use('/', routes);
+// app.use('/', routes(io));
 
 const PORT = process.env.PORT || 8080;
 server.listen(PORT, () => {
